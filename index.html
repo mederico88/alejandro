@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios BONITO</title>
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/formulario.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+
+</head>
+<body>
+   <!-- <div class="MODOincompleto">
+        <div class="mensajeIncompleto">
+            <h3>Error Encontrados</h3>
+            <p>Complete el camco "Nombre"</p>
+            <p>Ingrese un correo electr&oacute;nico</p>
+            <p>Complete el campo "Mensaje"</p>
+            <span id="btncerrar">Cerrar</span>
+        </div>
+
+    </div>-->
+    <section class="cuadroGrande">
+
+        <section class="infoContacto">
+            <section class="titulo">
+                <span class="fa fa-user-circle"></span>
+                <h2><i>INFORMACI&Oacute;N <br>DE CONTACTO</i></h2>
+            </section>
+
+            <section class="restoInfo">
+                <p><span class="fa fa-envelope"></span><i> Info.noseque@gmail.com</i></p>
+                <p><span class="fa fa-mobile"></span><i> +58(555-1234567)</i></p>
+            </section>
+        </section>
+
+        <form action="enviar.php" method="POST" class="formularioGeneral">
+            <h2><i>Datos de contacto</i></h2>
+            <h3><i>Env&iacute;a un mensaje:</i></h3>
+            <div class="infoUsuario">
+                <label for="nombre">Nombres *</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="tlf">N. de Tel&eacute;fono </label>
+                <input type="text" id="tlf" name="telefono" required>
+
+                <label for="mail">Correo Electr&oacute;nico *</label>
+                <input type="email" id="mail" name="correo" required>
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <input type="submit" class="boton2" value="Enviar mensaje" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+    <script src="js/formulario.js"></script>
+</body>
+</html>
+
